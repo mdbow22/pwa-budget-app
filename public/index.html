@@ -43,12 +43,13 @@
   </div>
   <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="index.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/offline.js"></script>
   <script type="text/javascript">
     (function() {
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker
-          .register("./service-worker.js")
+          .register("./js/service-worker.js")
           .then(res => {
             console.log(res);
             console.log("Service Worker registered successfully.");
