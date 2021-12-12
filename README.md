@@ -17,7 +17,7 @@ You will also need to create a .env file with your MongoDB URI.
 
 This app can be used for tracking transactions (say while on vacation, or just day-to-day). Simply type in the name of the transaction and the amount. If it's adding money (income) click "Add Funds" or if subtracting money (expenses) click "Subtract Funds."
 
-![screenshot of app](./assets/screenshot.png)
+![screenshot of app with example transactions](/assets/screenshot.png)
 
 The transaction history and chart will automatically update with the latest transaction.
 
