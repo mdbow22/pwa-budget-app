@@ -49,7 +49,7 @@
     (function() {
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker
-          .register("./js/service-worker.js")
+          .register("./service-worker.js")
           .then(res => {
             console.log(res);
             console.log("Service Worker registered successfully.");

@@ -14,7 +14,7 @@ router.post("/api/transaction", ({body}, res) => {
 router.post("/api/transaction/bulk", ({body}, res) => {
   Transaction.insertMany(body)
     .then(dbTransaction => {
-      res.json(dbTransaction);
+      res.status(200).json(dbTransaction);
     })
     .catch(err => {
       res.status(404).json(err);
